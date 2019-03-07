@@ -4,7 +4,7 @@ Unofficial ByteStrings Patch To Enable AnsiString Support In Delphi Next Generat
 
 Current:
 
-System.ByteStrings for 10.2 Berlin
+System.ByteStrings for Delphi 10.2-10.3.1
 
 Delphi 10.1+ Berlin reintroduces UTF8String and RawByteString for the NextGen compilers (Android, iOS, Linux). But ShortString and AnsiString are still missing. The compiler has full support for them but you can¡¯t use them because they are declared with a leading underscore in the System.pas unit what makes them inaccessible because ¡°_¡± is compiled to ¡°@¡± what you can¡¯t use for an identifier.
 
