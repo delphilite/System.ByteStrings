@@ -1,0 +1,9 @@
+*.bdsproj linguist-language=Pascal
+*.cer linguist-language=Pascal
+*.cfg linguist-language=Pascal
+*.exe linguist-language=Pascal
+*.inc linguist-language=Pascal
+*.res linguist-language=Pascal
+*.txt linguist-language=Pascal
+*.7z linguist-language=Pascal
+*.rar linguist-language=Pascal
