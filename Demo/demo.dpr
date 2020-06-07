@@ -5,8 +5,9 @@ program demo;
 {$R *.res}
 
 uses
+{$IF RTLVersion < 34.0}
   System.ByteStrings,
-
+{$ENDIF}
   System.RTLConsts,
   System.SysUtils;
 
